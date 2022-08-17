@@ -73,7 +73,7 @@ html, body {
   color: #000000;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
 
   .no__1 {
   height: 100vh;
@@ -129,7 +129,7 @@ html, body {
 
 }
 
-@media screen and (min-width: 601px) and (max-width: 767px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
 
   .no__1 {
   height: 100vh;
@@ -197,11 +197,11 @@ html, body {
 
 .no__1_title {
   font-family:var(--font-fam1);
-  font-size:70px;
+  font-size:65px;
   line-height: 1;
-  padding:300px 0;
+  padding-top:300px;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   color: var(--text-color2);
 }
 
@@ -213,7 +213,7 @@ html, body {
   margin-top: 20px;
   font-family: var(--font-fam2);
   color: var(--text-color1);
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 
 .no__2 {
