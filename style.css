@@ -141,9 +141,9 @@ html, body {
 
 .no__1_title {
   font-family:var(--font-fam1);
-  font-size:50px;
+  font-size:45px;
   line-height: 1;
-  padding: 300px 0;
+  padding-top: 300px;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: var(--text-color2);
@@ -157,7 +157,7 @@ html, body {
   margin-top: 20px;
   font-family: var(--font-fam2);
   color: var(--text-color1);
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .no__2 {
@@ -197,7 +197,7 @@ html, body {
 
 .no__1_title {
   font-family:var(--font-fam1);
-  font-size:65px;
+  font-size:70px;
   line-height: 1;
   padding-top:300px;
   text-transform: uppercase;
