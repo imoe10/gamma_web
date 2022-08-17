@@ -89,7 +89,7 @@ html, body {
   line-height: 1;
   padding-top: 350px;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   color: var(--text-color2);
 }
 
