@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://api.fontshare.com/v2/css?f[]=erode@300&display=swap" rel="stylesheet">
+	
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css'>
+	<link rel='stylesheet' href='http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
+
+	<title>GC</title>
+	<script type="text/javascript">
+		function updateHero() {
+			document.getElementById("no__1").style.background = "#FFFFFF";
+			document.getElementById("no__1").style.transition = "all 2s ease";
+			document.getElementById("no__1").style.transitionDelay = "2s";
+			document.getElementById("no__1_title").style.color = "#000000";
+			document.getElementById("no__1_title").style.transition = "all 4s ease";
+		}
+	</script>
+
+</head>
+<body onload="updateHero()">
+	<header class="nav center">
+        <p class="logo"></p>
+   
+        <input type="checkbox" name="" class="checkBtn">
+        <ol class="center">
+            <a href="#"><li></li></a>
+            <a href="#"><li></li></a>
+            <a href="#"><li></li></a>
+        </ol>   
+    </header>
+
+	<section class="no__1" id="no__1">
+		<div class="no__1_title" id="no__1_title">
+			<h1>GAMMA CREATIONS</h1>
+		</div>
+		<!--
+		<div class="no__1_image">
+			<img src="./img/8.png">
+		</div>
+		
+		<div class="no__1_link">
+			<a href="#"></a>
+		</div>
+		-->
+	</section>
+
+	<section class="no__2">
+      <h1>ABOUT</h1>
+      <h3>Gamma Creations combines traditional craftsmanship, a respect for time-honoured techniques, with cutting edge technology to create pieces where care and devotion are reflected in every facet. </h3>
+      <!--
+      <img src="./img/13.png">
+      -->
+  	</section>
+
+
+<!--
+	<section class="contact-us">
+  <div class="contact-container">
+    <div class="contact-item-1">
+   
+      <h2>CONTACT US</h2>	
+ 
+
+    </div>
+    <div class="contact-item-2">
+      <form class="form-container">
+      <input type="text" name="customer-name" placeholder="Name" required>
+      <input type="email" name="customer-email" placeholder="E-mail" required>
+      <input type="tel" name="customer-phone" placeholder="Phone">
+      <textarea maxlength="250" type="text" name="customer-message" placeholder="Your inquiry" style="padding-bottom: 120px;"></textarea>
+      <button type="submit" class="form-submit">
+          SUBMIT
+      </button>
+      </form>
+    </div>
+  </div>
+  
+</section>
+
+	-->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+        		"use strict";
+        		//  TESTIMONIALS CAROUSEL HOOK
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	});
+</script>
+ 
+<script src="./script2.js"></script>
+
+
+</body>
+</html>

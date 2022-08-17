@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+:root {
+  --bg-color1: #FFFFFF;
+  --bg-color2: #C7CFCC;
+  --bg-color3: #06283D;
+  --bg-color4: #F15412;
+  --text-color1: #000000;
+  --text-color2: #FFFFFF;
+  --font-fam1: "erode", serif;
+  --font-fam2 : "Lato", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  overflow: visible;
+  background: var(--bg-color1);
+  color: var(--text-color1);
+  margin: auto 0;
+}
+
+/* NAVBAR */
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  width: 75%;
+  height: 0px; 
+  margin: 0 auto;
+  justify-content: space-between;
+  position: sticky;
+  font-family: 'erode', serif;
+  text-decoration: none;
+
+}
+
+.checkBtn{
+  display: none;
+}
+
+.nav .logo{
+  font-size: 30px;
+  margin-top: 4.5em;
+}
+
+.nav .logo:hover{
+  
+}
+
+.nav ol{
+  list-style: none;
+}
+
+.nav ol a{
+  text-decoration: none;
+  margin-top: 9.7em;
+  padding: 0.5em 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #000000;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+  .no__1 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  position: relative;
+  text-align: center;
+}
+
+.no__1_title {
+  font-family:var(--font-fam1);
+  font-size:40px;
+  line-height: 1;
+  padding:400px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--text-color2);
+}
+
+.no__1_title:after {
+  content: "FINE JEWELRY SINCE 1984";
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-fam2);
+  color: var(--text-color1);
+  letter-spacing: 5px;
+}
+
+.no__2 {
+  background: #7A7A84;
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.no__2 h1 {
+  font-size:11px;
+  font-family:var(--font-fam1);
+  color: #F2EBE3;
+  padding: 60px 0 60px 0;
+}
+
+.no__2 h3 {
+  color: #F2EBE3;
+  line-height: 1.2;
+  font-size: 18px;
+  font-family:var(--font-fam1);
+  padding: 0 40px 10px 40px; 
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+
+  .no__1 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.no__1_title {
+  font-family:var(--font-fam1);
+  font-size:50px;
+  line-height: 1;
+  padding: 300px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--text-color2);
+}
+
+.no__1_title:after {
+  content: "FINE JEWELRY SINCE 1984";
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-fam2);
+  color: var(--text-color1);
+  letter-spacing: 5px;
+}
+
+.no__2 {
+  background: #7A7A84;
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.no__2 h1 {
+  font-size:12px;
+  font-family:var(--font-fam1);
+  color: #F2EBE3;
+  padding: 60px 0 60px 0;
+}
+
+.no__2 h3 {
+  color: #F2EBE3;
+  line-height: 1.2;
+  font-size: 18px;
+  font-family:var(--font-fam1);
+  padding: 0 60px 10px 60px; 
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .no__1 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.no__1_title {
+  font-family:var(--font-fam1);
+  font-size:70px;
+  line-height: 1;
+  padding:300px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--text-color2);
+}
+
+.no__1_title:after {
+  content: "FINE JEWELRY SINCE 1984";
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-fam2);
+  color: var(--text-color1);
+  letter-spacing: 5px;
+}
+
+.no__2 {
+  background: #7A7A84;
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.no__2 h1 {
+  font-size:13px;
+  font-family:var(--font-fam1);
+  color: #F2EBE3;
+  padding: 60px 0 60px 0;
+}
+
+.no__2 h3 {
+  color: #F2EBE3;
+  line-height: 1.2;
+  font-size: 22px;
+  font-family:var(--font-fam1);
+  padding: 0 80px 70px 80px; 
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .no__1 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.no__1_title {
+  font-family:var(--font-fam1);
+  font-size:70px;
+  line-height: 1;
+  padding: 300px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--text-color2);
+}
+
+.no__1_title:after {
+  content: "FINE JEWELRY SINCE 1984";
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-fam2);
+  color: var(--text-color1);
+  letter-spacing: 5px;
+}
+
+.no__2 {
+  background: #7A7A84;
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.no__2 h1 {
+  font-size:13px;
+  font-family:var(--font-fam1);
+  color: #F2EBE3;
+  padding: 60px 0 60px 0;
+}
+
+.no__2 h3 {
+  color: #F2EBE3;
+  line-height: 1.2;
+  font-size: 24px;
+  font-family:var(--font-fam1);
+  padding: 0 140px 40px 140px; 
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .no__1 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.no__1_title {
+  font-family:var(--font-fam1);
+  font-size:80px;
+  line-height: 1;
+  padding: 400px 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--text-color2);
+}
+
+.no__1_title:after {
+  content: "FINE JEWELRY SINCE 1984";
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-fam2);
+  color: var(--text-color1);
+  letter-spacing: 5px;
+}
+
+.no__2 {
+  background: #7A7A84;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.no__2 h1 {
+  font-size:14px;
+  font-family:var(--font-fam1);
+  color: #F2EBE3;
+  padding: 60px 0 140px 0;
+}
+
+.no__2 h3 {
+  color: #F2EBE3;
+  line-height: 1.2;
+  font-size:26px;
+  font-family:var(--font-fam1);
+  padding: 0 280px 70px 280px; 
+}
+}
+
+
+
