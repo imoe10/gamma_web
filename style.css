@@ -87,7 +87,7 @@ html, body {
   font-family:var(--font-fam1);
   font-size:35px;
   line-height: 1;
-  padding:400px 0;
+  padding-top:400px;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: var(--text-color2);
@@ -101,7 +101,7 @@ html, body {
   margin-top: 20px;
   font-family: var(--font-fam2);
   color: var(--text-color1);
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .no__2 {
