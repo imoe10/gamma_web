@@ -141,7 +141,7 @@ html, body {
 
 .no__1_title {
   font-family:var(--font-fam1);
-  font-size:45px;
+  font-size:10px;
   line-height: 1;
   padding-top: 300px;
   text-transform: uppercase;
@@ -197,7 +197,7 @@ html, body {
 
 .no__1_title {
   font-family:var(--font-fam1);
-  font-size:70px;
+  font-size:200px;
   line-height: 1;
   padding-top:300px;
   text-transform: uppercase;
