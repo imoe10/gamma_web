@@ -110,6 +110,13 @@ html, body {
   text-align: center;
   position: relative;
 }
+  
+.no__2 span {
+  line-height: 1.2;
+  font-size:18px;
+  font-family:var(--font-fam1);
+  text-align: left;
+}
 
 .no__2 h1 {
   font-size:22px;
