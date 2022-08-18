@@ -146,6 +146,7 @@ html, body {
   color: var(--text-color1);
   border: 1px solid #B0B0B0;
   padding: 8px 24px;
+  display:none;
 }
 
 }
