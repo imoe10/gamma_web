@@ -115,8 +115,8 @@ html, body {
   line-height: 1.2;
   font-size:17px;
   font-family:var(--font-fam1);
-  display:block;
-  text-align: left;
+  color:var(--text-color1);
+  text-align: center;
 }
 
 .no__2 h1 {
@@ -129,7 +129,7 @@ html, body {
   line-height: 1.2;
   font-size:14px;
   font-family:var(--font-fam1);
-  display:none;
+  color:var(--text-color2);
   padding:20px 45px 50px 57px;
   text-align:left;
 }
