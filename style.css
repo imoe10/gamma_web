@@ -92,7 +92,7 @@ html, body {
   line-height: 1;
   padding:400px 0;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   color: var(--text-color2);
 }
 
@@ -104,7 +104,7 @@ html, body {
   margin-top: 20px;
   font-family: var(--font-fam2);
   color: var(--text-color1);
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 .no__2 {
@@ -132,7 +132,7 @@ html, body {
   line-height: 1.2;
   font-size:14px;
   font-family:var(--font-fam1);
-  padding:40px 10% 20px 10%;
+  padding:40px 8% 20px 8%;
 }
 
 .no__2 img {
