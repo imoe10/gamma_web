@@ -124,13 +124,12 @@ html, body {
   line-height: 1.2;
   font-size:18px;
   font-family:var(--font-fam1);
-  text-align: left;
   color: var(--text-color1);
 }
 
 .no__2 h3 {
   line-height: 1.2;
-  font-size:14px;
+  font-size:13px;
   font-family:var(--font-fam1);
   padding:40px 8% 20px 8%;
   text-align:justify;
