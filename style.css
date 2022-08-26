@@ -133,6 +133,7 @@ html, body {
   font-size:13px;
   font-family:var(--font-fam1);
   padding:40px 8% 20px 8%;
+  text-align:justify;
 }
 
 .no__2 img {
