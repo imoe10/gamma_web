@@ -132,12 +132,12 @@ html, body {
   line-height: 1.2;
   font-size:14px;
   font-family:var(--font-fam1);
-  padding:40px 8% 20px 8%;
+  padding:40px 7% 20px 7%;
 }
 
 .no__2 img {
-  width: 400px;
-  height: 450px;
+  width: 350px;
+  height: 400px;
 }
 
 .no__2 a {
