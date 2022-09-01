@@ -76,7 +76,7 @@ html, body {
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
   .no__1 {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background: #0F0F0F;
   background-repeat: no-repeat;
@@ -117,7 +117,6 @@ html, body {
 .no__2 h2 {
   font-size:22px;
   font-family:var(--font-fam1);
-  padding-bottom: 20px;
 }
 
 
@@ -130,9 +129,9 @@ html, body {
 
 .no__2 h3 {
   line-height: 1.2;
-  font-size:13px;
+  font-size:14px;
   font-family:var(--font-fam1);
-  padding:40px 8% 30px 8%;
+  padding:20px 8% 30px 8%;
   text-align:justify;
 }
 
