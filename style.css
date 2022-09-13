@@ -136,7 +136,7 @@ html, body {
 }
 
 .no__2_image img {
-  width: 500px;
+  width: 400px;
   height: auto;  
   filter: drop-shadow(-10px 10px 12px #353535  );
 }
@@ -148,7 +148,7 @@ html, body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .no__2_content h3{
