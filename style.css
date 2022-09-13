@@ -106,14 +106,13 @@ html, body {
 .no__1_image {
   position: relative;
   margin-top: -80px;
-  display:none;
+
 }
 
 .no__1_image img {
-  height: 600px;
-  width:600px;
+  height: auto;
+  width: 300px;
   filter: drop-shadow(-10px 10px 12px #353535);
-  display:none;
 }
 
 
