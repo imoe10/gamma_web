@@ -1,8 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 :root {
   --bg-color1: #FFFFFF;
   --bg-color2: #C7CFCC;
@@ -75,89 +77,12 @@ html, body {
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
-  .no__1 {
-  height: 90vh;
-  width: 100%;
-  background: #0F0F0F;
+ .no__1 {
+  height: 100vh;
+  width: 100%;  
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
-  position: relative;
-  text-align: center;
-}
-
-.no__1_title {
-  font-family:var(--font-fam1);
-  font-size:40px;
-  line-height: 1;
-  padding:350px 0;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--text-color2);
-}
-
-.no__1_title:after {
-  content: "FINE JEWELRY SINCE 1984";
-  display: block;
-  font-size: 11px;
-  text-align: center;
-  margin-top: 20px;
-  font-family: var(--font-fam2);
-  color: var(--text-color1);
-  letter-spacing: 2px;
-}
-
-.no__2 {
-  height: 80vh;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
-.no__2 h2 {
-  font-size:22px;
-  font-family:var(--font-fam1);
-}
-
-
-.no__2 span {
-  line-height: 1.2;
-  font-size:18px;
-  font-family:var(--font-fam1);
-  color: var(--text-color1);
-}
-
-.no__2 h3 {
-  line-height: 1.2;
-  font-size:15px;
-  font-family:var(--font-fam1);
-  padding:20px 8% 30px 8%;
-}
-
-.no__2 img {
-  width: 350px;
-  height: 400px;
-}
-
-.no__2 a {
-  text-decoration:none;
-  font-size: 9px;
-  font-family:var(--font-fam2);
-  color: var(--text-color1);
-  font-weight:bold ;
-  border: 1px solid #D4D4CE;
-  padding: 8px 24px;
-  background: #D4D4CE;
-}
-
-}
-
-@media screen and (min-width: 601px) and (max-width: 767px) {
-
-  .no__1 {
-  height: 100vh;
-  width: 100%;
-  background: #000000;
   text-align: center;
   position: relative;
 }
@@ -166,224 +91,194 @@ html, body {
   font-family:var(--font-fam1);
   font-size:50px;
   line-height: 1;
-  padding: 400px 0;
+  padding: 350px 0 0 0;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  color: var(--text-color2);
+  color: var(--text-color1);
+  letter-spacing: 3px;
 }
 
-.no__1_title:after {
-  content: "FINE JEWELRY SINCE 1984";
-  display: block;
-  font-size: 11px;
+.no__1_title h4 {
+  font-size: 14px;
   text-align: center;
-  margin-top: 20px;
-  font-family: var(--font-fam2);
-  color: var(--text-color1);
-  letter-spacing: 5px;
+  margin-top: 15px;
+  font-family: var(--font-fam1);
+  color: #A9A9A9;
+  letter-spacing: 2px;
 }
+
+.no__1_image {
+  position: relative;
+  margin-top: -80px;
+}
+
+.no__1_image img {
+  height: auto;
+  width:auto;
+  filter: drop-shadow(-10px 10px 12px #353535);
+}
+
 
 .no__2 {
-  height: 100vh;
-  width: 100%;
-  text-align: center;
+  height: auto;
+  width: 100%;  
+  display: flex;
+  flex-direction: column-reverse;
   position: relative;
+
 }
 
-.no__2 h2 {
-  font-size:22px;
-  font-family:var(--font-fam1);
-  padding: 0 0 40px 0;
+.no__2_image {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.no__2_image img {
+  width: auto;
+  height: auto;  
+  filter: drop-shadow(-10px 10px 12px #353535  );
+}
+
+.no__2_content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 70px;
+}
+
+.no__2_content h3{
+   font-size:40px;
+  font-family: var(--font-fam1);
+  padding: 30px 70px;
+  transition: color 0.2s;
 }
 
 
-.no__2 span {
-  line-height: 1.2;
-  font-size:18px;
-  font-family:var(--font-fam1);
-  text-align: left;
-  color: var(--text-color1);
-}
-
-.no__2 h3 {
-  line-height: 1.2;
+.no__2_content h3:before {
+  content: 'Our story';
+  display: block;
   font-size:14px;
-  font-family:var(--font-fam1);
-  padding:0 13% 20px 13%;
+  font-family: 'Work Sans', sans-serif;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.no__2 img {
-  width: 400px;
-  height: 450px;
+.no__2_content p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0 20% 30px 75px;
+  color: #484848;
 }
 
-.no__2 a {
-  text-decoration:none;
-  font-size: 9px;
-  font-family:var(--font-fam2);
-  color: var(--text-color1);
-  font-weight:bold ;
-  border: 1px solid #D4D4CE;
-  padding: 8px 24px;
-  background: #D4D4CE;
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: transform 2s,opacity 2s;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+
+
+
+
+.no__3 {
+  height: 100vh;
+  width: 100%;  
+  position: relative;
+  display: flex;
 
 }
+
+
+.no__3_image {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.no__3_image img {
+  width: auto;
+  height: 40%;  
+}
+
+.no__3_image p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  padding:  110px 50% 40px 0;
+    color: #484848;
+}
+
+
+.no__3_content {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+    
+}
+
+
+.no__3_content h3{
+   font-size:40px;
+  font-family: var(--font-fam1);
+  padding: 0 0 30px 30px;
+}
+
+
+.no__3_content h3:before {
+  content: 'The Founder';
+  display: block;
+  font-size:14px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.no__3_content p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0 120px 30px 40%;
+}
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+
+
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-  .no__1 {
-  height: 100vh;
-  width: 100%;
-  background: #000000;
-  text-align: center;
-  position: relative;
-}
-
-.no__1_title {
-  font-family:var(--font-fam1);
-  font-size:70px;
-  line-height: 1;
-  padding:400px 0;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: var(--text-color2);
-}
-
-.no__1_title:after {
-  content: "FINE JEWELRY SINCE 1984";
-  display: block;
-  font-size: 11px;
-  text-align: center;
-  margin-top: 20px;
-  font-family: var(--font-fam2);
-  color: var(--text-color1);
-  letter-spacing: 5px;
-}
-
-.no__2 {
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
-.no__2 h2 {
-  font-size:22px;
-  font-family:var(--font-fam1);
-  padding: 0 0 40px 0;
-}
-
-
-.no__2 span {
-  line-height: 1.2;
-  font-size:18px;
-  font-family:var(--font-fam1);
-  text-align: left;
-  color: var(--text-color1);
-}
-
-.no__2 h3 {
-  line-height: 1.2;
-  font-size:14px;
-  font-family:var(--font-fam1);
-  padding:0 16% 20px 16%;
-}
-
-.no__2 img {
-  width: 400px;
-  height: 450px;
-}
-
-.no__2 a {
-  text-decoration:none;
-  font-size: 11px;
-  font-family:var(--font-fam2);
-  color: var(--text-color1);
-  font-weight:bold ;
-  border: 1px solid #D4D4CE;
-  padding: 8px 24px;
-  background: #D4D4CE;
-}
 
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-  .no__1 {
-  height: 100vh;
-  width: 100%;
-  background: #000000;
-  text-align: center;
-  position: relative;
-}
 
-.no__1_title {
-  font-family:var(--font-fam1);
-  font-size:70px;
-  line-height: 1;
-  padding: 300px 0;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  color: var(--text-color2);
-}
-
-.no__1_title:after {
-  content: "FINE JEWELRY SINCE 1984";
-  display: block;
-  font-size: 11px;
-  text-align: center;
-  margin-top: 20px;
-  font-family: var(--font-fam2);
-  color: var(--text-color1);
-  letter-spacing: 5px;
-}
-
-.no__2 {
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
-.no__2 h2 {
-  font-size:22px;
-  font-family:var(--font-fam1);
-  padding: 0 0 40px 0;
-}
-
-
-.no__2 span {
-  line-height: 1.2;
-  font-size:18px;
-  font-family:var(--font-fam1);
-  text-align: left;
-  color: var(--text-color1);
-}
-
-.no__2 h3 {
-  line-height: 1.2;
-  font-size:14px;
-  font-family:var(--font-fam1);
-  padding:0 20% 20px 20%;
-}
-
-.no__2 img {
-  width: auto;
-  height: 500px;
-}
-
-.no__2 a {
-  text-decoration:none;
-  font-size: 11px;
-  font-family:var(--font-fam2);
-  color: var(--text-color1);
-  font-weight:bold ;
-  border: 1px solid #D4D4CE;
-  padding: 8px 24px;
-  background: #D4D4CE;
-}
 
 }
 
@@ -391,8 +286,7 @@ html, body {
 
   .no__1 {
   height: 100vh;
-  width: 100%;
-  background: #0F0F0F;
+  width: 100%;  
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
@@ -402,16 +296,25 @@ html, body {
 
 .no__1_title {
   font-family:var(--font-fam1);
-  font-size:100px;
+  font-size:80px;
   line-height: 1;
-  padding: 400px 0 0 0;
+  padding: 300px 0 0 0;
   text-transform: uppercase;
-  color: var(--text-color2);
+  color: var(--text-color1);
   letter-spacing: 3px;
 }
 
+.no__1_title h4 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--font-fam1);
+  color: #A9A9A9;
+  letter-spacing: 2px;
+}
+
 .no__1_title:after {
-  content: "FINE JEWELRY SINCE 1984";
+  content: "";
   display: block;
   font-size: 18px;
   text-align: center;
@@ -422,77 +325,168 @@ html, body {
 }
 
 .no__1_image {
-
-  top: 10px;
-  right:100px;
+  position: relative;
+  margin-top: -100px;
 }
 
 .no__1_image img {
-  height: 400PX;
+  height: auto;
   width:auto;
-
+  filter: drop-shadow(-10px 10px 12px #353535  );
 }
+
 
 .no__2 {
   height: 90vh;
-  width: 100%;
-  text-align: center;
+  width: 100%;  
+  display: flex;
   position: relative;
-}
-
-.no__2 h2 {
-  font-size:26px;
-  font-family:var(--font-fam1);
-  padding: 10px 0 40px 20px;
-}
-
-.no__2 span {
-  line-height: 1.2;
-  font-size:18px;
-  font-family:var(--font-fam1);
 
 }
 
-.no__2 h3 {
-  line-height: 1.2;
-  font-size:16px;
-  font-family:var(--font-fam1);
-  padding:0 28% 40px 28%;
-  text-align: center;
+
+.no__2_image {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 150px;
 }
 
-.no__2 img {
-
+.no__2_image img {
   width: auto;
-  height: 500px;
+  height: auto;  
+  filter: drop-shadow(-10px 10px 12px #353535  );
 }
 
-.no__2_image:after {
-  content: "JAQUES PRADES";
+.no__2_content {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+.no__2_content h3{
+   font-size:40px;
+  font-family: var(--font-fam1);
+  padding: 30px 100px;
+  transition: color 0.2s;
+}
+
+
+.no__2_content h3:before {
+  content: 'Our story';
   display: block;
-  font-family: var(--font-fam2);
-  margin-top: 20px;
-  font-weight: bold;
-  font-size: 11px;
-  color: var(--text-color1);
+  font-size:14px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.no__2 a {
-  margin-left: 120px;
-  text-decoration:none;
-  font-size: 10px;
-  font-family:var(--font-fam2);
-  color: var(--text-color1);
-  font-weight:bold ;
-  border: 1px solid #D4D4CE;
-  padding: 8px 24px;
-  background: #D4D4CE;
+.no__2_content p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0 50% 30px 100px;
+  color: #484848;
 }
 
 
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: transform 2s,opacity 2s;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+
+
+
+.no__3 {
+  height: 100vh;
+  width: 100%;  
+  position: relative;
+  display: flex;
+
+}
+
+
+.no__3_image {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.no__3_image img {
+  width: auto;
+  height: 40%;  
+}
+
+.no__3_image p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  padding:  110px 50% 40px 0;
+    color: #484848;
+}
+
+
+.no__3_content {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+    
+}
+
+
+.no__3_content h3{
+   font-size:40px;
+  font-family: var(--font-fam1);
+  padding: 0 0 30px 30px;
+}
+
+
+.no__3_content h3:before {
+  content: 'The Founder';
+  display: block;
+  font-size:14px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.no__3_content p {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0 120px 30px 40%;
+}
+
 
 
 }
+
+
+
 
 
 
