@@ -78,7 +78,7 @@ html, body {
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
  .no__1 {
-  height: 100vh;
+  height:90vh;
   width: 100%;  
   text-align: center;
   position: relative;
@@ -132,7 +132,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 20px;
+
 }
 
 .no__2_image img {
@@ -148,7 +148,7 @@ html, body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 20px;
+
 }
 
 .no__2_content h3{
