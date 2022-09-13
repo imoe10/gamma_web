@@ -18,6 +18,8 @@
 			document.getElementById("no__1").style.transitionDelay = "2s";
 			document.getElementById("no__1_title").style.color = "#000000";
 			document.getElementById("no__1_title").style.transition = "all 3s ease";
+			document.getElementById("subtitle").style.color = "#000000";
+			document.getElementById("subtitle").style.transition = "all 3s ease";
 		}
 
 		function updateFooter() {
@@ -26,13 +28,49 @@
 			document.getElementById("no__2").style.background = "#D4D4CE";
 			document.getElementById("no__2").style.transition = "all 0.4s ease";
 		}
+
+
+		 function darkColor() {    
+    $(window).scroll(function() {
+    if ($(window).scrollTop() > 700) {
+        document.getElementById("no__1").style.background = "#252525";
+			document.getElementById("no__1_title").style.color = "#FFFFFF";
+			document.getElementById("subtitle").style.color = "#FFFFFF";
+			document.getElementById("no__1").style.transition = "all 0.8s ease";
+
+			document.getElementById("no__2").style.background = "#252525";
+			document.getElementById("no__2").style.transition = "all 0.8s ease";	
+			document.getElementById("content").style.color = "#FFFFFF";
+			document.getElementById("content2").style.color = "#C9C9C9";
+			document.getElementById("content2").style.transition = "all 0.2s ease";
+			document.getElementById("content3").style.color = "#C9C9C9";
+			document.getElementById("content3").style.transition = "all 0.2s ease";
+			document.getElementById("content4").style.color = "#C9C9C9";
+			document.getElementById("content4").style.transition = "all 0.2s ease";
+			document.getElementById("content5").style.color = "#C9C9C9";
+			document.getElementById("content5").style.transition = "all 0.2s ease";
+			
+    }
+    else {
+        document.getElementById("no__1").style.background = "#FFFFFF";
+			document.getElementById("no__1_title").style.color = "#000000";
+			document.getElementById("subtitle").style.color = "#A9A9A9";
+			document.getElementById("no__1").style.transition = "all 0.6s ease";
+
+			document.getElementById("no__2").style.background = "#FFFFFF";
+			document.getElementById("content").style.color = "#000000";
+			document.getElementById("content2").style.color = "#484848";document.getElementById("content3").style.color = "#484848";document.getElementById("content4").style.color = "#484848";document.getElementById("content5").style.color = "#484848";
+			document.getElementById("no__2").style.transition = "all 0.6s ease";
+    }
+});
+}
+
 	</script>
 
 </head>
-<body onload="updateHero()">
+<body onload="darkColor()">
 	<header class="nav center">
         <p class="logo"></p>
-   
         <input type="checkbox" name="" class="checkBtn">
         <ol class="center">
             <a href="#"><li></li></a>
@@ -40,112 +78,68 @@
             <a href="#"><li></li></a>
         </ol>   
     </header>
-
 	<section class="no__1" id="no__1">	
 		<div class="no__1_title" id="no__1_title">
 			<h1>GAMMA CREATIONS</h1>
+			<h4 id="subtitle">Fine Jewelry Since 1984</h4>
 		</div>
-		<!--
 		<div class="no__1_image">
-			<img src="./img/12.png">
+		<img src="./img/5.png">
 		</div>
-		
-		<div class="no__1_link">
-			<a href="#"></a>
-		</div>
-		-->
 	</section>
+	
+	<section class="no__2" id="no__2">
 		
+		<div class="no__2_image reveal">
+			<img src="./img/6.png">
+		</div>
+		<div class="no__2_content reveal" id="content">
+			<h3>European Heritage<br>Global Inspiration</h3>
+			<p  id="content2">
+				The extensive travels and international experience of key team members brings a refreshing sense of uniqueness and innovation, captured in truly inspired jewelry.
+			</p>
+			<p  id="content3">
+				Gamma Creations combines traditional craftsmanship, a respect for time-honoured techniques, with cutting edge technology to create pieces where care and devotion are reflected in every facet.
+			</p>
+			<p  id="content4">
+				Each creation is produced entirely in-house, never leaving our workshop studio until it is sent to the customer. 
+			</p>
+			<p  id="content5">
+			 By totally controlling the production process at every step we ensure the very highest standards of quality and service.
+			</p>
+		</div>
+	
+	</section>
+
 	
 	
-	<section  class="no__2" id="no__2">
-			<h2>OUR STORY</h2>
-			
-			<h3>Gamma Creations combines traditional craftsmanship, a respect for time-honoured techniques, with cutting edge technology to create pieces where care and devotion are reflected in every facet. Each creation is produced entirely in-house, never leaving our workshop studio until it is sent to the customer. By totally controlling the production process at every step we ensure the very highest standards of quality and service.</h3>
-			
-      		<img src="./img/67.jpg">
-  	</section>
-
-
-  	<!--
-  	<section  class="footer" id="footer">
-  		<svg viewBox="-126 -126 252 252" xmlns="http://www.w3.org/2000/svg">
-  		<path id="path" d="M-125 0a125 125 0 10250 0 125 125 0 10-250 0" fill="none" />
-  		<text y="40">
-    		<textPath href="#path" startOffset="20">
-      		Gamma Creations Co., Ltd Fine Jewelry Since 1984 
-    		</textPath>
-  		</text>
-		</svg>
-  	</section>
-  -->
-
-  <!--
-      <div class="line">
-  	<div class="vl"></div>
-  </div>
--->
-	<!--
-
-	<section onmouseover="" id="footer" class="contact-us">
-  <div class="contact-container">
-    <div class="contact-item-1">
-   
-      <img src="./img/13.png">
- 
-
-    </div>
-    <div class="contact-item-2">
-    	<h3>Contact Us</h3>
-      <form class="form-container">
-      <input type="text" name="customer-name" placeholder="Name" required>
-      <input type="email" name="customer-email" placeholder="E-mail" required>
-      <input type="tel" name="customer-phone" placeholder="Phone">
-      <textarea maxlength="250" type="text" name="customer-message" placeholder="Your inquiry" style="padding-bottom: 120px;"></textarea><br>
-      <button type="submit" class="form-submit">
-          SUBMIT
-      </button>
-      </form>
-    </div>
-  </div>
-  
-</section>
-	
--->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js'></script>
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-        		"use strict";
-        		//  TESTIMONIALS CAROUSEL HOOK
-		        $('#customers-testimonials').owlCarousel({
-		            loop: true,
-		            center: true,
-		            items: 3,
-		            margin: 0,
-		            autoplay: true,
-		            dots:true,
-		            autoplayTimeout: 8500,
-		            smartSpeed: 450,
-		            responsive: {
-		              0: {
-		                items: 1
-		              },
-		              768: {
-		                items: 2
-		              },
-		              1170: {
-		                items: 3
-		              }
-		            }
-		        });
-        	});
-</script>
- 
 <script src="./script2.js"></script>
+<script type="text/javascript">
+	window.addEventListener('scroll', reveal);
 
+	function reveal() {
+		var reveals = document.querySelectorAll('.reveal');
+
+		for(var i = 0; i < reveals.length; i++) {
+
+			var windowheight =  window.innerHeight;
+			var revealtop = reveals[i].getBoundingClientRect().top;
+			var revealpoint = 150;
+
+
+			if (revealtop < windowheight - revealpoint) {
+				reveals[i].classList.add('active');
+			} else {
+				reveals[i].classList.remove('active');
+			}
+		}
+
+	}
+</script>
 
 </body>
 </html>
